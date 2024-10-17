@@ -5,9 +5,8 @@
 #include <QGridLayout>
 #include <QPushButton>
 #include <QNetworkAccessManager>
-#include <QNetworkReply>
 #include <QComboBox>
-#include <QMessageBox>
+
 
 class BattleField : public QWidget {
     Q_OBJECT

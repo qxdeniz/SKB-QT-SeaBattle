@@ -6,6 +6,9 @@
 #include <QJsonObject>
 #include <QJsonDocument>
 #include <QJsonArray>
+#include <QMessageBox>
+#include <QNetworkReply>
+
 
 BattleField::BattleField(QWidget *parent) : QWidget(parent), manager(new QNetworkAccessManager(this)) {
     QVBoxLayout *layout = new QVBoxLayout(this);
